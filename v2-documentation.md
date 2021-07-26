@@ -6,7 +6,7 @@ The canonical WBNB address used by the MoonDogeSwap interface is `0xbb4CdB9CBd36
 
 Results are cached for 5 minutes (or 300 seconds).
 
-## [`/v2/summary`](https://api.moondoge.com/api/summary)
+## [`/api/summary`](https://api.moondoge.com/api/summary)
 
 Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves. 
 
@@ -18,7 +18,7 @@ Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves.
 
 ```json5
 {
-  "updated_at": 1234567,              // UNIX timestamp
+  "updated_at": 1627316916054,              // UNIX timestamp
   "data": {
     "0x..._0x...": {                  // BEP20 token addresses, joined by an underscore
       "price": "...",                 // price denominated in token1/token0
@@ -32,7 +32,7 @@ Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens`](https://api.moondoge.com/api/tokens)
+## [`/api/tokens`](https://api.moondoge.com/api/tokens)
 
 Returns the tokens in the top ~1000 pairs on MoonDogeSwap, sorted by reserves.
 
@@ -44,7 +44,7 @@ Returns the tokens in the top ~1000 pairs on MoonDogeSwap, sorted by reserves.
 
 ```json5
 {
-  "updated_at": 1234567,              // UNIX timestamp
+  "updated_at": 1627316916054,              // UNIX timestamp
   "data": {
     "0x...": {                        // the address of the BEP20 token
       "name": "...",                  // not necessarily included for BEP20 tokens
@@ -57,19 +57,19 @@ Returns the tokens in the top ~1000 pairs on MoonDogeSwap, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens/0x...`](https://api.moondoge.com/api/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82)
+## [`/api/tokens/0x...`](https://api.moondoge.com/api/tokens/0xF9F89Ef3C1B96a662dB5fC9184dBf6ca1416dFe5)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.moondoge.com/api/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82`
+`GET https://api.moondoge.com/api/tokens/0xF9F89Ef3C1B96a662dB5fC9184dBf6ca1416dFe5`
 
 ### Response
 
 ```json5
 {
-  "updated_at": 1234567,              // UNIX timestamp
+  "updated_at": 1627316916054,              // UNIX timestamp
   "data": {
     "name": "...",                    // not necessarily included for BEP20 tokens
     "symbol": "...",                  // not necessarily included for BEP20 tokens
@@ -79,7 +79,7 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/v2/pairs`](https://api.moondoge.com/api/pairs)
+## [`/api/pairs`](https://api.moondoge.com/api/pairs)
 
 Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves.
 
@@ -91,7 +91,7 @@ Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves.
 
 ```json5
 {
-  "updated_at": 1234567,              // UNIX timestamp
+  "updated_at": 1627316916054,              // UNIX timestamp
   "data": {
     "0x..._0x...": {                  // the asset ids of BNB and BEP20 tokens, joined by an underscore
       "pair_address": "0x...",        // pair address
