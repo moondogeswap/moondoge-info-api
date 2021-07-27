@@ -6,7 +6,7 @@ and volume information. All information is fetched from the underlying subgraphs
 
 ## v1 Documentation
 
-The documentation of the endpoints, for MoonDogeSwap v1, can be found [here](v2-documentation.md).
+The documentation of the endpoints, for MoonDogeSwap v1, can be found [here](documentation.md).
 
 ## Development
 

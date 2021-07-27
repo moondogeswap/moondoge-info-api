@@ -6,13 +6,13 @@ The canonical WBNB address used by the MoonDogeSwap interface is `0xbb4CdB9CBd36
 
 Results are cached for 5 minutes (or 300 seconds).
 
-## [`/api/summary`](https://api.moondoge.com/api/summary)
+## [`/api/summary`](https://info.moondoge.com/api/summary)
 
 Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves. 
 
 ### Request
 
-`GET https://api.moondoge.com/api/summary`
+`GET https://info.moondoge.com/api/summary`
 
 ### Response
 
@@ -32,13 +32,13 @@ Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/api/tokens`](https://api.moondoge.com/api/tokens)
+## [`/api/tokens`](https://info.moondoge.com/api/tokens)
 
 Returns the tokens in the top ~1000 pairs on MoonDogeSwap, sorted by reserves.
 
 ### Request
 
-`GET https://api.moondoge.com/api/tokens`
+`GET https://info.moondoge.com/api/tokens`
 
 ### Response
 
@@ -57,13 +57,13 @@ Returns the tokens in the top ~1000 pairs on MoonDogeSwap, sorted by reserves.
 }
 ```
 
-## [`/api/tokens/0x...`](https://api.moondoge.com/api/tokens/0xF9F89Ef3C1B96a662dB5fC9184dBf6ca1416dFe5)
+## [`/api/tokens/0x...`](https://info.moondoge.com/api/tokens/0xF9F89Ef3C1B96a662dB5fC9184dBf6ca1416dFe5)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.moondoge.com/api/tokens/0xF9F89Ef3C1B96a662dB5fC9184dBf6ca1416dFe5`
+`GET https://info.moondoge.com/api/tokens/0xF9F89Ef3C1B96a662dB5fC9184dBf6ca1416dFe5`
 
 ### Response
 
@@ -79,13 +79,13 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/api/pairs`](https://api.moondoge.com/api/pairs)
+## [`/api/pairs`](https://info.moondoge.com/api/pairs)
 
 Returns data for the top ~1000 MoonDogeSwap pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.moondoge.com/api/pairs`
+`GET https://info.moondoge.com/api/pairs`
 
 ### Response
 
